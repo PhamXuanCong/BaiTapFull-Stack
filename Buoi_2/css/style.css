@@ -1,0 +1,72 @@
+/* Style bai 1 */
+
+/* style yêu cầu 1 */
+.ex1 p {
+  color: green;
+}
+
+/* style yêu cầu 2 */
+.ex1 p.text {
+  color: red;
+}
+
+/* style yêu cầu 3 */
+.ex1 .container p {
+  color: gold;
+}
+
+/* -------------------------- */
+
+/* Bai tap 2 */
+.btn:hover {
+  background: red;
+}
+
+.input-box:focus {
+  border: 2px solid blueviolet;
+  outline: none;
+}
+
+/* -------------------------- */
+
+/* Bai tap 3 */
+.ex3 li:nth-of-type(even) {
+  color: red;
+}
+
+.ex3 li:first-child {
+  color: green;
+}
+
+.ex3 li:last-child {
+  color: orange;
+}
+
+/* -------------------------- */
+
+/* Bai tap 4 */
+.ex4 .title::before {
+  content: "🔥";
+  font-family: "Font Awesome 6 Free";
+}
+
+.ex4 .title::after {
+  content: "_";
+  font-size: 13;
+  color: black;
+}
+
+/* -------------------------- */
+
+/* Bai tap 5 */
+
+.ex5 .content::first-letter {
+  color: red;
+  font-size: 20;
+}
+
+.ex5 .content::first-line {
+  font-style: italic;
+}
+
+/* -------------------------- */
