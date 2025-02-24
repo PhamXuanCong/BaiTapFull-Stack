@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", serif;
+  color: hsl(30, 10%, 34%);
+  font-size: 0.7rem;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 500px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.image {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+h1,
+h2 {
+  font-family: "Young serif", serif;
+}
+
+h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  color: hsl(24, 5%, 18%);
+}
+
+.description {
+  margin-bottom: 0.8rem;
+}
+
+.list-card {
+  background-color: hsl(330, 100%, 98%);
+  padding: 0.7rem;
+  margin-bottom: 0.8rem;
+}
+
+.list-card > p {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.list-card > ul {
+  margin-left: 1.1rem;
+}
+
+.list-card > ul > li {
+  margin-bottom: 0.2rem;
+}
+
+.list-card > ul > li::marker {
+  color: hsl(332, 51%, 32%);
+  font-size: 0.6rem;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 0.3rem;
+}
+
+.ingredient-list {
+  margin-left: 1.2rem;
+}
+
+.ingredient-list > li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 0.6rem;
+}
+
+li {
+  padding-left: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.instruction-list > li::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 0.6rem;
+}
+
+.instruction-list {
+  margin-left: 0.8rem;
+}
+
+.instruction-list > li {
+  padding-left: 0.5rem;
+}
+
+.nutrition-description {
+  margin-bottom: 0.3rem;
+}
+
+.mass {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.nutrition-table {
+  width: 100%;
+}
+
+.nutrition-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem;
+}
